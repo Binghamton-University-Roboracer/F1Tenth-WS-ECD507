@@ -1,0 +1,6 @@
+[submodule "src/ml_algorithm/src/ml_algorithm"]
+	path = src/ml_algorithm/src/ml_algorithm
+	url = https://github.com/c3hodgins/ecd507-autonomy.git
+[submodule "src/ml_algorithm"]
+	path = src/ml_algorithm
+	url = https://github.com/c3hodgins/ecd507-autonomy.git
