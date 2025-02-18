@@ -7,3 +7,6 @@
 [submodule "f1tenth_system"]
 	path = f1tenth_system
 	url = https://github.com/f1tenth/f1tenth_system.git
+[submodule "src/data_logger"]
+	path = src/data_logger
+	url = https://github.com/Binghamton-University-Roboracer/ECD507-Data-Logger.git
