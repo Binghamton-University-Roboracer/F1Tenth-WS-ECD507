@@ -4,3 +4,6 @@
 [submodule "src/ml_algorithm"]
 	path = src/ml_algorithm
 	url = https://github.com/c3hodgins/ecd507-autonomy.git
+[submodule "f1tenth_system"]
+	path = f1tenth_system
+	url = https://github.com/f1tenth/f1tenth_system.git
