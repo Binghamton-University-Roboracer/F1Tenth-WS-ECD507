@@ -1,0 +1,44 @@
+[0.060s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/udp_driver/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/serial_driver/lib:/home/ecd507/f1tenth_ws/install/io_context/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/ecd507/f1tenth_ws/install/vesc_ackermann
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.306s] -- The CXX compiler identification is GNU 11.4.0
+[0.327s] -- Detecting C compiler ABI info
+[0.491s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.512s] -- Detecting C compile features
+[0.513s] -- Detecting C compile features - done
+[0.521s] -- Detecting CXX compiler ABI info
+[0.704s] -- Detecting CXX compiler ABI info - done
+[0.722s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.722s] -- Detecting CXX compile features
+[0.723s] -- Detecting CXX compile features - done
+[0.728s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.140s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.627s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.637s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.654s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.954s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.961s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.135s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.199s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.316s] -- Looking for pthread.h
+[2.463s] -- Looking for pthread.h - found
+[2.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.604s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.606s] -- Found Threads: TRUE  
+[2.993s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.040s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.043s] -- Configured cppcheck include dirs: /home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include
+[3.043s] -- Configured cppcheck exclude dirs and/or files: 
+[3.046s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.046s] -- Configured cpplint exclude dirs and/or files: 
+[3.048s] -- Added test 'lint_cmake' to check CMake code style
+[3.051s] -- Added test 'uncrustify' to check C / C++ code style
+[3.051s] -- Configured uncrustify additional arguments: 
+[3.054s] -- Added test 'xmllint' to check XML markup files
+[3.059s] -- Configuring done
+[3.104s] -- Generating done
+[3.120s] -- Build files have been written to: /home/ecd507/f1tenth_ws/build/vesc_ackermann

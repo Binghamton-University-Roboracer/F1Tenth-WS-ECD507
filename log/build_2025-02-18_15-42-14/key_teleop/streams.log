@@ -1,0 +1,24 @@
+[4.299s] Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': PYTHONPATH=/home/ecd507/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/ecd507/f1tenth_ws/build/key_teleop/build install --record /home/ecd507/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[5.396s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.397s]   warnings.warn(
+[5.424s] running egg_info
+[5.429s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[5.432s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[5.434s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[5.436s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[5.438s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[5.445s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[5.446s] adding license file 'LICENSE'
+[5.449s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[5.450s] running build
+[5.451s] running build_py
+[5.453s] running install
+[5.455s] running install_lib
+[5.460s] running install_data
+[5.460s] running install_egg_info
+[5.479s] removing '/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages/key_teleop-0.3.0-py3.10.egg-info' (and everything under it)
+[5.492s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages/key_teleop-0.3.0-py3.10.egg-info
+[5.519s] running install_scripts
+[5.603s] Installing key_teleop script to /home/ecd507/f1tenth_ws/install/key_teleop/lib/key_teleop
+[5.603s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/key_teleop/install.log'
+[6.743s] Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/ecd507/f1tenth_ws/build/key_teleop/build install --record /home/ecd507/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data

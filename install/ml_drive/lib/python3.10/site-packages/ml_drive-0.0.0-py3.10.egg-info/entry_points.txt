@@ -1,0 +1,3 @@
+[console_scripts]
+ml_vesc_controller = ml_drive.ml_vesc_controller:main
+

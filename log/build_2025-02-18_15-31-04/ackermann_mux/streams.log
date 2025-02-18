@@ -1,0 +1,38 @@
+[0.070s] Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[1.548s] [100%] Built target ackermann_mux
+[2.221s] Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[2.249s] Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/ackermann_mux
+[2.289s] -- Install configuration: ""
+[2.290s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[2.291s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch
+[2.292s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[2.293s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config
+[2.293s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[2.304s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[2.304s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[2.305s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[2.306s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[2.306s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[2.306s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[2.306s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[2.306s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[2.307s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[2.307s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[2.307s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[2.307s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[2.307s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[2.307s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[2.307s] -- Installing: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.308s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.308s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.308s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.308s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.309s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.310s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.480s] Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/ackermann_mux

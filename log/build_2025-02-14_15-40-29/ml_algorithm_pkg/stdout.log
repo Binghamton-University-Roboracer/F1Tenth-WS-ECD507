@@ -1,0 +1,22 @@
+running egg_info
+creating ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info
+writing ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/entry_points.txt
+writing requirements to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/requires.txt
+writing top-level names to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/top_level.txt
+writing manifest file '../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build
+creating /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib
+creating /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg
+copying ml_algorithim_pkg/test.py -> /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg
+copying ml_algorithim_pkg/__init__.py -> /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg
+running install
+running install_lib
+copying /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg/test.py -> /home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages/ml_algorithim_pkg
+byte-compiling /home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages/ml_algorithim_pkg/test.py to test.cpython-310.pyc
+running install_data

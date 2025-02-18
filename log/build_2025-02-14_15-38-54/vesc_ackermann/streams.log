@@ -1,0 +1,6 @@
+[1.111s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib PYTHONPATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[1.342s] [ 42%] Built target vesc_ackermann
+[1.381s] gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/vesc_to_odom_node.dir/all] Interrupt
+[1.403s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/ackermann_to_vesc_node.dir/all] Interrupt
+[1.404s] gmake: *** [Makefile:146: all] Interrupt
+[1.443s] Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann' returned '-2': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib PYTHONPATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_ackermann -- -j6 -l6

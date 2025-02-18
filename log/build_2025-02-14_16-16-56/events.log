@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000999] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001211] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001502] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001983] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.002300] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.002627] (-) JobUnselected: {'identifier': 'ros2_camera'}
+[0.002742] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002797] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002837] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002926] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002998] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.003171] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.003253] (ml_drive) JobQueued: {'identifier': 'ml_drive', 'dependencies': OrderedDict()}
+[0.003332] (ml_drive) JobStarted: {'identifier': 'ml_drive'}
+[0.099897] (-) TimerEvent: {}
+[0.200487] (-) TimerEvent: {}
+[0.301075] (-) TimerEvent: {}
+[0.401653] (-) TimerEvent: {}
+[0.502228] (-) TimerEvent: {}
+[0.602824] (-) TimerEvent: {}
+[0.703466] (-) TimerEvent: {}
+[0.804038] (-) TimerEvent: {}
+[0.904582] (-) TimerEvent: {}
+[1.005176] (-) TimerEvent: {}
+[1.105757] (-) TimerEvent: {}
+[1.206347] (-) TimerEvent: {}
+[1.306943] (-) TimerEvent: {}
+[1.407556] (-) TimerEvent: {}
+[1.418497] (ml_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ml_drive', 'build', '--build-base', '/home/ecd507/f1tenth_ws/build/ml_drive/build', 'install', '--record', '/home/ecd507/f1tenth_ws/build/ml_drive/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ecd507/f1tenth_ws/src/ml_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ecd507', 'SSH_CLIENT': '149.125.164.94 52520 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ecd507', 'OLDPWD': '/home/ecd507/f1tenth_ws/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'NVM_BIN': '/home/ecd507/.nvm/versions/node/v22.14.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-9b911141-3de9-4aa5-8380-531baae56ddc.sock', 'NVM_INC': '/home/ecd507/.nvm/versions/node/v22.14.0/include/node', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b4c77d487a5bb4f8.txt', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/ecd507/.nvm', 'COLCON_PREFIX_PATH': '/home/ecd507/f1tenth_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ecd507', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/ecd507/.local/bin:/home/ecd507/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-064e12da8c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ecd507/f1tenth_ws/build/ml_drive', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '149.125.164.94 52520 149.125.111.60 22', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ecd507/f1tenth_ws/build/ml_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux'}, 'shell': False}
+[1.507713] (-) TimerEvent: {}
+[1.608298] (-) TimerEvent: {}
+[1.708912] (-) TimerEvent: {}
+[1.809517] (-) TimerEvent: {}
+[1.910103] (-) TimerEvent: {}
+[1.984503] (ml_drive) StdoutLine: {'line': b'running egg_info\n'}
+[1.986006] (ml_drive) StdoutLine: {'line': b'writing ../../build/ml_drive/ml_drive.egg-info/PKG-INFO\n'}
+[1.986613] (ml_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/ml_drive/ml_drive.egg-info/dependency_links.txt\n'}
+[1.987033] (ml_drive) StdoutLine: {'line': b'writing entry points to ../../build/ml_drive/ml_drive.egg-info/entry_points.txt\n'}
+[1.987297] (ml_drive) StdoutLine: {'line': b'writing requirements to ../../build/ml_drive/ml_drive.egg-info/requires.txt\n'}
+[1.987562] (ml_drive) StdoutLine: {'line': b'writing top-level names to ../../build/ml_drive/ml_drive.egg-info/top_level.txt\n'}
+[1.991587] (ml_drive) StdoutLine: {'line': b"reading manifest file '../../build/ml_drive/ml_drive.egg-info/SOURCES.txt'\n"}
+[1.993108] (ml_drive) StdoutLine: {'line': b"writing manifest file '../../build/ml_drive/ml_drive.egg-info/SOURCES.txt'\n"}
+[1.993391] (ml_drive) StdoutLine: {'line': b'running build\n'}
+[1.993567] (ml_drive) StdoutLine: {'line': b'running build_py\n'}
+[1.994043] (ml_drive) StdoutLine: {'line': b'running install\n'}
+[1.994732] (ml_drive) StdoutLine: {'line': b'running install_lib\n'}
+[1.999906] (ml_drive) StdoutLine: {'line': b'running install_data\n'}
+[2.000182] (ml_drive) StdoutLine: {'line': b'copying package.xml -> /home/ecd507/f1tenth_ws/install/ml_drive/share/ml_drive\n'}
+[2.000505] (ml_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.004320] (ml_drive) StdoutLine: {'line': b"removing '/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages/ml_drive-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.005002] (ml_drive) StdoutLine: {'line': b'Copying ../../build/ml_drive/ml_drive.egg-info to /home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages/ml_drive-0.0.0-py3.10.egg-info\n'}
+[2.006882] (ml_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[2.010168] (-) TimerEvent: {}
+[2.049994] (ml_drive) StdoutLine: {'line': b'Installing camera_subscriber script to /home/ecd507/f1tenth_ws/install/ml_drive/lib/ml_drive\n'}
+[2.050938] (ml_drive) StdoutLine: {'line': b"writing list of installed files to '/home/ecd507/f1tenth_ws/build/ml_drive/install.log'\n"}
+[2.110365] (-) TimerEvent: {}
+[2.122143] (ml_drive) CommandEnded: {'returncode': 0}
+[2.161353] (ml_drive) JobEnded: {'identifier': 'ml_drive', 'rc': 0}
+[2.163726] (-) EventReactorShutdown: {}

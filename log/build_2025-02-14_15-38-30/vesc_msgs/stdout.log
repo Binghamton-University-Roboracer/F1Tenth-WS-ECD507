@@ -1,0 +1,10 @@
+[  1%] Built target vesc_msgs__cpp
+[ 12%] Built target vesc_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_vesc_msgs
+[ 23%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target vesc_msgs__rosidl_typesupport_cpp
+[ 45%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[ 78%] Built target vesc_msgs__rosidl_typesupport_c
+[ 78%] Built target vesc_msgs

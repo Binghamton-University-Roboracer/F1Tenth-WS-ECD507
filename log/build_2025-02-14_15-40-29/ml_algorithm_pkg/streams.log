@@ -1,0 +1,25 @@
+[3.061s] Invoking command in '/home/ecd507/f1tenth_ws/ml_algorithim_pkg': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ml_algorithm_pkg build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/install.log --single-version-externally-managed install_data
+[3.545s] running egg_info
+[3.546s] creating ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info
+[3.546s] writing ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/PKG-INFO
+[3.547s] writing dependency_links to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/dependency_links.txt
+[3.547s] writing entry points to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/entry_points.txt
+[3.547s] writing requirements to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/requires.txt
+[3.547s] writing top-level names to ../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/top_level.txt
+[3.548s] writing manifest file '../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/SOURCES.txt'
+[3.552s] reading manifest file '../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/SOURCES.txt'
+[3.553s] writing manifest file '../build/ml_algorithm_pkg/ml_algorithm_pkg.egg-info/SOURCES.txt'
+[3.553s] running build
+[3.553s] running build_py
+[3.554s] creating /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build
+[3.554s] creating /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib
+[3.554s] creating /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg
+[3.554s] copying ml_algorithim_pkg/test.py -> /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg
+[3.555s] copying ml_algorithim_pkg/__init__.py -> /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg
+[3.555s] running install
+[3.556s] running install_lib
+[3.558s] copying /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build/lib/ml_algorithim_pkg/test.py -> /home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages/ml_algorithim_pkg
+[3.559s] byte-compiling /home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages/ml_algorithim_pkg/test.py to test.cpython-310.pyc
+[3.561s] running install_data
+[3.562s] error: can't copy 'resource/ml_algorithm_pkg': doesn't exist or not a regular file
+[3.639s] Invoked command in '/home/ecd507/f1tenth_ws/ml_algorithim_pkg' returned '1': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ml_algorithm_pkg build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/install.log --single-version-externally-managed install_data

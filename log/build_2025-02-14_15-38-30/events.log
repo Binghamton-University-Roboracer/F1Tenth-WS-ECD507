@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000381] (ackermann_mux) JobQueued: {'identifier': 'ackermann_mux', 'dependencies': OrderedDict()}
+[0.000459] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.000510] (ml_algorithm_pkg) JobQueued: {'identifier': 'ml_algorithm_pkg', 'dependencies': OrderedDict()}
+[0.000554] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.000592] (ros2_camera) JobQueued: {'identifier': 'ros2_camera', 'dependencies': OrderedDict()}
+[0.000637] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.000675] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.000709] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict([('teleop_tools_msgs', '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs')])}
+[0.000754] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/home/ecd507/f1tenth_ws/install/vesc_msgs')])}
+[0.000795] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/home/ecd507/f1tenth_ws/install/vesc_msgs')])}
+[0.000833] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict([('key_teleop', '/home/ecd507/f1tenth_ws/install/key_teleop'), ('teleop_tools_msgs', '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs'), ('joy_teleop', '/home/ecd507/f1tenth_ws/install/joy_teleop')])}
+[0.000876] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/home/ecd507/f1tenth_ws/install/vesc_msgs'), ('vesc_ackermann', '/home/ecd507/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/home/ecd507/f1tenth_ws/install/vesc_driver')])}
+[0.000926] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict([('ackermann_mux', '/home/ecd507/f1tenth_ws/install/ackermann_mux'), ('teleop_tools_msgs', '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs'), ('vesc_msgs', '/home/ecd507/f1tenth_ws/install/vesc_msgs'), ('joy_teleop', '/home/ecd507/f1tenth_ws/install/joy_teleop'), ('vesc_ackermann', '/home/ecd507/f1tenth_ws/install/vesc_ackermann'), ('vesc_driver', '/home/ecd507/f1tenth_ws/install/vesc_driver'), ('vesc', '/home/ecd507/f1tenth_ws/install/vesc')])}
+[0.018521] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.026850] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.093227] (ackermann_mux) JobStarted: {'identifier': 'ackermann_mux'}
+[0.098994] (-) TimerEvent: {}
+[0.104748] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.121278] (ml_algorithm_pkg) JobStarted: {'identifier': 'ml_algorithm_pkg'}
+[0.143498] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[0.180191] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.181749] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[0.183215] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ecd507/f1tenth_ws/build/vesc_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ecd507/f1tenth_ws/build/vesc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ecd507'), ('SSH_CLIENT', '149.125.164.94 56742 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ecd507'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('NVM_BIN', '/home/ecd507/.nvm/versions/node/v22.14.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-955aba2e-9dd6-474e-a912-c84789e667a9.sock'), ('NVM_INC', '/home/ecd507/.nvm/versions/node/v22.14.0/include/node'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b4c77d487a5bb4f8.txt'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ecd507/.nvm'), ('LOGNAME', 'ecd507'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('PATH', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/ecd507/.local/bin:/home/ecd507/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-064e12da8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ecd507/f1tenth_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '149.125.164.94 56742 149.125.111.60 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.199151] (-) TimerEvent: {}
+[0.207189] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.208749] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[0.208852] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ecd507'), ('SSH_CLIENT', '149.125.164.94 56742 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ecd507'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('NVM_BIN', '/home/ecd507/.nvm/versions/node/v22.14.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-955aba2e-9dd6-474e-a912-c84789e667a9.sock'), ('NVM_INC', '/home/ecd507/.nvm/versions/node/v22.14.0/include/node'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b4c77d487a5bb4f8.txt'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ecd507/.nvm'), ('LOGNAME', 'ecd507'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('PATH', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/ecd507/.local/bin:/home/ecd507/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-064e12da8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '149.125.164.94 56742 149.125.111.60 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.231122] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'cmake'}
+[0.234222] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'build'}
+[0.234371] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ecd507/f1tenth_ws/build/ackermann_mux', '--', '-j6', '-l6'], 'cwd': '/home/ecd507/f1tenth_ws/build/ackermann_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ecd507'), ('SSH_CLIENT', '149.125.164.94 56742 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ecd507'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('NVM_BIN', '/home/ecd507/.nvm/versions/node/v22.14.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-955aba2e-9dd6-474e-a912-c84789e667a9.sock'), ('NVM_INC', '/home/ecd507/.nvm/versions/node/v22.14.0/include/node'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b4c77d487a5bb4f8.txt'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/ecd507/.nvm'), ('LOGNAME', 'ecd507'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('PATH', '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/ecd507/.local/bin:/home/ecd507/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-064e12da8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ecd507/f1tenth_ws/build/ackermann_mux'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '149.125.164.94 56742 149.125.111.60 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.299312] (-) TimerEvent: {}
+[0.400036] (-) TimerEvent: {}
+[0.500802] (-) TimerEvent: {}
+[0.601555] (-) TimerEvent: {}
+[0.702283] (-) TimerEvent: {}
+[0.803008] (-) TimerEvent: {}
+[0.903733] (-) TimerEvent: {}
+[1.004416] (-) TimerEvent: {}
+[1.105176] (-) TimerEvent: {}
+[1.174608] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 0}
+[1.210717] (-) TimerEvent: {}
+[1.312595] (-) TimerEvent: {}
+[1.413320] (-) TimerEvent: {}
+[1.514513] (-) TimerEvent: {}
+[1.615686] (-) TimerEvent: {}
+[1.716410] (-) TimerEvent: {}
+[1.817137] (-) TimerEvent: {}
+[1.917793] (-) TimerEvent: {}
+[2.018493] (-) TimerEvent: {}
+[2.119174] (-) TimerEvent: {}
+[2.219913] (-) TimerEvent: {}
+[2.320584] (-) TimerEvent: {}
+[2.423329] (-) TimerEvent: {}
+[2.428058] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target vesc_msgs__cpp\n'}
+[2.428812] (vesc_msgs) StdoutLine: {'line': b'[ 12%] Built target vesc_msgs__rosidl_generator_c\n'}
+[2.429017] (vesc_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_vesc_msgs\n'}
+[2.429170] (vesc_msgs) StdoutLine: {'line': b'[ 23%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.429308] (vesc_msgs) StdoutLine: {'line': b'[ 34%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[2.429440] (vesc_msgs) StdoutLine: {'line': b'[ 45%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.429566] (vesc_msgs) StdoutLine: {'line': b'[ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[2.429691] (vesc_msgs) StdoutLine: {'line': b'[ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.429816] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[2.429940] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs\n'}
+[2.430063] (vesc_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:589: vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/all] Interrupt\n'}
+[2.430294] (vesc_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.430429] (vesc_msgs) StderrLine: {'line': b'  File "/home/ecd507/f1tenth_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/setup.py", line 1, in <module>\n'}
+[2.430555] (vesc_msgs) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[2.430673] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>\n'}
+[2.430816] (vesc_msgs) StderrLine: {'line': b'    import distutils.core\n'}
+[2.430936] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>\n'}
+[2.431051] (vesc_msgs) StderrLine: {'line': b'    from distutils.cmd import Command\n'}
+[2.431166] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>\n'}
+[2.431280] (vesc_msgs) StderrLine: {'line': b'    from distutils import util, dir_util, file_util, archive_util, dep_util\n'}
+[2.431394] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>\n'}
+[2.431517] (vesc_msgs) StderrLine: {'line': b'    import zipfile\n'}
+[2.431631] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/zipfile.py", line 20, in <module>\n'}
+[2.431743] (vesc_msgs) StderrLine: {'line': b'    import pathlib\n'}
+[2.431853] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/pathlib.py", line 14, in <module>\n'}
+[2.431962] (vesc_msgs) StderrLine: {'line': b'    from urllib.parse import quote_from_bytes as urlquote_from_bytes\n'}
+[2.432072] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/urllib/parse.py", line 257, in <module>\n'}
+[2.432182] (vesc_msgs) StderrLine: {'line': b'    _SplitResultBase = namedtuple(\n'}
+[2.432293] (vesc_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/collections/__init__.py", line 397, in namedtuple\n'}
+[2.432435] (vesc_msgs) StderrLine: {'line': b'    field_names = tuple(map(_sys.intern, field_names))\n'}
+[2.432545] (vesc_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[2.432655] (vesc_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg] Interrupt\n'}
+[2.432772] (vesc_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/all] Interrupt\n'}
+[2.432886] (vesc_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[2.435957] (teleop_tools_msgs) StdoutLine: {'line': b'[  9%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[2.436443] (teleop_tools_msgs) StdoutLine: {'line': b'[ 12%] Built target teleop_tools_msgs__cpp\n'}
+[2.436605] (teleop_tools_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_teleop_tools_msgs\n'}
+[2.436749] (teleop_tools_msgs) StdoutLine: {'line': b'[ 22%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.436882] (teleop_tools_msgs) StdoutLine: {'line': b'[ 32%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.437013] (teleop_tools_msgs) StdoutLine: {'line': b'[ 41%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.437138] (teleop_tools_msgs) StdoutLine: {'line': b'[ 51%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[2.437258] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_c\n'}
+[2.437379] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[2.437501] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs\n'}
+[2.446949] (teleop_tools_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.447400] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/ecd507/f1tenth_ws/build/teleop_tools_msgs/ament_cmake_python/teleop_tools_msgs/setup.py", line 1, in <module>\n'}
+[2.447546] (teleop_tools_msgs) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[2.447670] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>\n'}
+[2.447792] (teleop_tools_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:589: teleop_tools_msgs__py/CMakeFiles/teleop_tools_msgs__py.dir/all] Interrupt\n'}
+[2.447911] (teleop_tools_msgs) StderrLine: {'line': b'    import distutils.core\n'}
+[2.448024] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>\n'}
+[2.448139] (teleop_tools_msgs) StderrLine: {'line': b'    from distutils.dist import Distribution\n'}
+[2.448250] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>\n'}
+[2.448363] (teleop_tools_msgs) StderrLine: {'line': b'    from distutils.fancy_getopt import FancyGetopt, translate_longopt\n'}
+[2.448473] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 12, in <module>\n'}
+[2.448585] (teleop_tools_msgs) StderrLine: {'line': b'    import getopt\n'}
+[2.448694] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/getopt.py", line 38, in <module>\n'}
+[2.448867] (teleop_tools_msgs) StderrLine: {'line': b'    from gettext import gettext as _\n'}
+[2.448983] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/gettext.py", line 73, in <module>\n'}
+[2.449095] (teleop_tools_msgs) StderrLine: {'line': b'    _token_pattern = re.compile(r"""\n'}
+[2.449207] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/re.py", line 251, in compile\n'}
+[2.449320] (teleop_tools_msgs) StderrLine: {'line': b'    return _compile(pattern, flags)\n'}
+[2.449431] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/re.py", line 303, in _compile\n'}
+[2.449563] (teleop_tools_msgs) StderrLine: {'line': b'    p = sre_compile.compile(pattern, flags)\n'}
+[2.449671] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile\n'}
+[2.449781] (teleop_tools_msgs) StderrLine: {'line': b'    p = sre_parse.parse(p, flags)\n'}
+[2.449890] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse\n'}
+[2.449998] (teleop_tools_msgs) StderrLine: {'line': b'    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)\n'}
+[2.450154] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub\n'}
+[2.450272] (teleop_tools_msgs) StderrLine: {'line': b'    itemsappend(_parse(source, state, verbose, nested + 1,\n'}
+[2.450381] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse\n'}
+[2.450526] (teleop_tools_msgs) StderrLine: {'line': b'    p = _parse_sub(source, state, sub_verbose, nested + 1)\n'}
+[2.450638] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub\n'}
+[2.450747] (teleop_tools_msgs) StderrLine: {'line': b'    itemsappend(_parse(source, state, verbose, nested + 1,\n'}
+[2.450857] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_parse.py", line 548, in _parse\n'}
+[2.450965] (teleop_tools_msgs) StderrLine: {'line': b'    this = sourceget()\n'}
+[2.451073] (teleop_tools_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/sre_parse.py", line 257, in get\n'}
+[2.451182] (teleop_tools_msgs) StderrLine: {'line': b'    self.__next()\n'}
+[2.451288] (teleop_tools_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[2.451396] (teleop_tools_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg] Interrupt\n'}
+[2.451509] (teleop_tools_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/all] Interrupt\n'}
+[2.452050] (teleop_tools_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[2.453586] (ackermann_mux) StdoutLine: {'line': b'[100%] Built target ackermann_mux\n'}
+[2.457378] (ml_algorithm_pkg) JobEnded: {'identifier': 'ml_algorithm_pkg', 'rc': 'SIGINT'}
+[2.459885] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 'SIGINT'}
+[2.460491] (ackermann_mux) JobEnded: {'identifier': 'ackermann_mux', 'rc': 'SIGINT'}
+[2.461095] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 'SIGINT'}
+[2.461579] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 'SIGINT'}
+[2.470583] (ros2_camera) JobSkipped: {'identifier': 'ros2_camera'}
+[2.470710] (joy_teleop) JobSkipped: {'identifier': 'joy_teleop'}
+[2.470874] (vesc_ackermann) JobSkipped: {'identifier': 'vesc_ackermann'}
+[2.470946] (vesc_driver) JobSkipped: {'identifier': 'vesc_driver'}
+[2.470995] (teleop_tools) JobSkipped: {'identifier': 'teleop_tools'}
+[2.471036] (vesc) JobSkipped: {'identifier': 'vesc'}
+[2.471073] (f1tenth_stack) JobSkipped: {'identifier': 'f1tenth_stack'}
+[2.471114] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[4.838s] Invoking command in '/home/ecd507/f1tenth_ws/src/data_logger': PYTHONPATH=/home/ecd507/f1tenth_ws/build/data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_logger build --build-base /home/ecd507/f1tenth_ws/build/data_logger/build install --record /home/ecd507/f1tenth_ws/build/data_logger/install.log --single-version-externally-managed install_data
+[6.462s] running egg_info
+[6.465s] writing ../../build/data_logger/data_logger.egg-info/PKG-INFO
+[6.466s] writing dependency_links to ../../build/data_logger/data_logger.egg-info/dependency_links.txt
+[6.467s] writing entry points to ../../build/data_logger/data_logger.egg-info/entry_points.txt
+[6.469s] writing requirements to ../../build/data_logger/data_logger.egg-info/requires.txt
+[6.470s] writing top-level names to ../../build/data_logger/data_logger.egg-info/top_level.txt
+[6.478s] reading manifest file '../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+[6.488s] writing manifest file '../../build/data_logger/data_logger.egg-info/SOURCES.txt'
+[6.490s] running build
+[6.491s] running build_py
+[6.492s] running install
+[6.493s] running install_lib
+[6.497s] running install_data
+[6.498s] running install_egg_info
+[6.504s] removing '/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger-0.0.0-py3.10.egg-info' (and everything under it)
+[6.516s] Copying ../../build/data_logger/data_logger.egg-info to /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger-0.0.0-py3.10.egg-info
+[6.527s] running install_scripts
+[6.668s] Installing data_collector script to /home/ecd507/f1tenth_ws/install/data_logger/lib/data_logger
+[6.668s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/data_logger/install.log'
+[7.659s] Invoked command in '/home/ecd507/f1tenth_ws/src/data_logger' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_logger build --build-base /home/ecd507/f1tenth_ws/build/data_logger/build install --record /home/ecd507/f1tenth_ws/build/data_logger/install.log --single-version-externally-managed install_data

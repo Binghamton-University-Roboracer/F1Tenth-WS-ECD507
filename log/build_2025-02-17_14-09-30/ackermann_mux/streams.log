@@ -1,0 +1,38 @@
+[0.124s] Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[1.937s] [100%] Built target ackermann_mux
+[1.937s] Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[1.960s] Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/ackermann_mux
+[2.016s] -- Install configuration: ""
+[2.016s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[2.016s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch
+[2.016s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[2.016s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config
+[2.016s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[2.017s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[2.018s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[2.019s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[2.019s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[2.019s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[2.019s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[2.021s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[2.021s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[2.022s] -- Installing: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.022s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.022s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.023s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.024s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.024s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.024s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.105s] Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/ackermann_mux

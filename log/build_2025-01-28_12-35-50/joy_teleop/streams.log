@@ -1,0 +1,47 @@
+[1.580s] Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/udp_driver/lib:/home/ecd507/f1tenth_ws/install/serial_driver/lib:/home/ecd507/f1tenth_ws/install/io_context/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ecd507/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/ecd507/f1tenth_ws/build/joy_teleop/build install --record /home/ecd507/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data
+[2.135s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.135s]   warnings.warn(
+[2.158s] running egg_info
+[2.160s] creating ../../../../build/joy_teleop/joy_teleop.egg-info
+[2.161s] writing ../../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[2.162s] writing dependency_links to ../../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[2.163s] writing entry points to ../../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[2.163s] writing requirements to ../../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[2.163s] writing top-level names to ../../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[2.164s] writing manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[2.168s] reading manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[2.169s] writing manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[2.170s] running build
+[2.170s] running build_py
+[2.170s] creating /home/ecd507/f1tenth_ws/build/joy_teleop/build
+[2.171s] creating /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib
+[2.171s] creating /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[2.171s] copying joy_teleop/incrementer_server.py -> /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[2.171s] copying joy_teleop/joy_teleop.py -> /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[2.172s] copying joy_teleop/__init__.py -> /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop
+[2.172s] running install
+[2.173s] running install_lib
+[2.175s] creating /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.175s] copying /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.175s] copying /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.176s] copying /home/ecd507/f1tenth_ws/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop
+[2.177s] byte-compiling /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-310.pyc
+[2.179s] byte-compiling /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-310.pyc
+[2.183s] byte-compiling /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop/__init__.py to __init__.cpython-310.pyc
+[2.184s] running install_data
+[2.184s] copying package.xml -> /home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop
+[2.184s] creating /home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/config
+[2.184s] copying config/joy_teleop_example.yaml -> /home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/config
+[2.185s] creating /home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/launch
+[2.185s] copying launch/example.launch.py -> /home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/launch
+[2.185s] creating /home/ecd507/f1tenth_ws/install/joy_teleop/share/ament_index
+[2.185s] creating /home/ecd507/f1tenth_ws/install/joy_teleop/share/ament_index/resource_index
+[2.185s] creating /home/ecd507/f1tenth_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[2.186s] copying resource/joy_teleop -> /home/ecd507/f1tenth_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[2.186s] running install_egg_info
+[2.195s] Copying ../../../../build/joy_teleop/joy_teleop.egg-info to /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-0.3.0-py3.10.egg-info
+[2.195s] running install_scripts
+[2.243s] Installing incrementer_server script to /home/ecd507/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+[2.244s] Installing joy_teleop script to /home/ecd507/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+[2.245s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/joy_teleop/install.log'
+[2.395s] Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/udp_driver/lib:/home/ecd507/f1tenth_ws/install/serial_driver/lib:/home/ecd507/f1tenth_ws/install/io_context/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ecd507/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/ecd507/f1tenth_ws/build/joy_teleop/build install --record /home/ecd507/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data

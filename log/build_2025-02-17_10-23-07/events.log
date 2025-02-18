@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001035] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001306] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001545] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.001639] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.001714] (-) JobUnselected: {'identifier': 'ros2_camera'}
+[0.001784] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.001866] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.001935] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002001] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002063] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002125] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002192] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict()}
+[0.002264] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.099439] (-) TimerEvent: {}
+[0.199996] (-) TimerEvent: {}
+[0.300578] (-) TimerEvent: {}
+[0.401142] (-) TimerEvent: {}
+[0.501727] (-) TimerEvent: {}
+[0.602367] (-) TimerEvent: {}
+[0.702991] (-) TimerEvent: {}
+[0.803536] (-) TimerEvent: {}
+[0.904089] (-) TimerEvent: {}
+[1.004645] (-) TimerEvent: {}
+[1.105192] (-) TimerEvent: {}
+[1.205746] (-) TimerEvent: {}
+[1.306332] (-) TimerEvent: {}
+[1.406939] (-) TimerEvent: {}
+[1.438924] (data_logger) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/data_logger', 'build', '--build-base', '/home/ecd507/f1tenth_ws/build/data_logger/build', 'install', '--record', '/home/ecd507/f1tenth_ws/build/data_logger/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ecd507/f1tenth_ws/src/data_logger', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ecd507', 'SSH_CLIENT': '149.125.166.102 64028 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ecd507', 'OLDPWD': '/home/ecd507/f1tenth_ws/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'NVM_BIN': '/home/ecd507/.nvm/versions/node/v22.14.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-babb5c1d-5a89-4c89-9e45-d352df769d1a.sock', 'NVM_INC': '/home/ecd507/.nvm/versions/node/v22.14.0/include/node', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-b4c77d487a5bb4f8.txt', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/ecd507/.nvm', 'COLCON_PREFIX_PATH': '/home/ecd507/f1tenth_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ecd507', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ecd507/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/ecd507/.local/bin:/home/ecd507/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ecd507/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-064e12da8c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ecd507/f1tenth_ws/build/data_logger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '149.125.166.102 64028 149.125.108.54 22', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ecd507/f1tenth_ws/build/data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux'}, 'shell': False}
+[1.507283] (-) TimerEvent: {}
+[1.607889] (-) TimerEvent: {}
+[1.708484] (-) TimerEvent: {}
+[1.809072] (-) TimerEvent: {}
+[1.909882] (-) TimerEvent: {}
+[1.989262] (data_logger) StdoutLine: {'line': b'running egg_info\n'}
+[1.990330] (data_logger) StdoutLine: {'line': b'creating ../../build/data_logger/data_logger.egg-info\n'}
+[1.990731] (data_logger) StdoutLine: {'line': b'writing ../../build/data_logger/data_logger.egg-info/PKG-INFO\n'}
+[1.991227] (data_logger) StdoutLine: {'line': b'writing dependency_links to ../../build/data_logger/data_logger.egg-info/dependency_links.txt\n'}
+[1.991503] (data_logger) StdoutLine: {'line': b'writing entry points to ../../build/data_logger/data_logger.egg-info/entry_points.txt\n'}
+[1.991724] (data_logger) StdoutLine: {'line': b'writing requirements to ../../build/data_logger/data_logger.egg-info/requires.txt\n'}
+[1.991923] (data_logger) StdoutLine: {'line': b'writing top-level names to ../../build/data_logger/data_logger.egg-info/top_level.txt\n'}
+[1.992282] (data_logger) StdoutLine: {'line': b"writing manifest file '../../build/data_logger/data_logger.egg-info/SOURCES.txt'\n"}
+[1.995491] (data_logger) StdoutLine: {'line': b"reading manifest file '../../build/data_logger/data_logger.egg-info/SOURCES.txt'\n"}
+[1.996740] (data_logger) StdoutLine: {'line': b"writing manifest file '../../build/data_logger/data_logger.egg-info/SOURCES.txt'\n"}
+[1.997060] (data_logger) StdoutLine: {'line': b'running build\n'}
+[1.997252] (data_logger) StdoutLine: {'line': b'running build_py\n'}
+[1.997429] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/build/data_logger/build\n'}
+[1.997652] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/build/data_logger/build/lib\n'}
+[1.997841] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/build/data_logger/build/lib/data_logger\n'}
+[1.997983] (data_logger) StdoutLine: {'line': b'copying data_logger/data_collector.py -> /home/ecd507/f1tenth_ws/build/data_logger/build/lib/data_logger\n'}
+[1.998168] (data_logger) StdoutLine: {'line': b'copying data_logger/__init__.py -> /home/ecd507/f1tenth_ws/build/data_logger/build/lib/data_logger\n'}
+[1.998445] (data_logger) StdoutLine: {'line': b'running install\n'}
+[2.001328] (data_logger) StdoutLine: {'line': b'running install_lib\n'}
+[2.002774] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger\n'}
+[2.002991] (data_logger) StdoutLine: {'line': b'copying /home/ecd507/f1tenth_ws/build/data_logger/build/lib/data_logger/data_collector.py -> /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger\n'}
+[2.003214] (data_logger) StdoutLine: {'line': b'copying /home/ecd507/f1tenth_ws/build/data_logger/build/lib/data_logger/__init__.py -> /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger\n'}
+[2.004393] (data_logger) StdoutLine: {'line': b'byte-compiling /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger/data_collector.py to data_collector.cpython-310.pyc\n'}
+[2.005808] (data_logger) StdoutLine: {'line': b'byte-compiling /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger/__init__.py to __init__.cpython-310.pyc\n'}
+[2.006153] (data_logger) StdoutLine: {'line': b'running install_data\n'}
+[2.006351] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/install/data_logger/share/ament_index\n'}
+[2.006582] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/install/data_logger/share/ament_index/resource_index\n'}
+[2.006769] (data_logger) StdoutLine: {'line': b'creating /home/ecd507/f1tenth_ws/install/data_logger/share/ament_index/resource_index/packages\n'}
+[2.006956] (data_logger) StdoutLine: {'line': b'copying resource/data_logger -> /home/ecd507/f1tenth_ws/install/data_logger/share/ament_index/resource_index/packages\n'}
+[2.007135] (data_logger) StdoutLine: {'line': b'copying package.xml -> /home/ecd507/f1tenth_ws/install/data_logger/share/data_logger\n'}
+[2.007269] (data_logger) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.009929] (-) TimerEvent: {}
+[2.011046] (data_logger) StdoutLine: {'line': b'Copying ../../build/data_logger/data_logger.egg-info to /home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages/data_logger-0.0.0-py3.10.egg-info\n'}
+[2.012890] (data_logger) StdoutLine: {'line': b'running install_scripts\n'}
+[2.054144] (data_logger) StdoutLine: {'line': b'Installing data_collector script to /home/ecd507/f1tenth_ws/install/data_logger/lib/data_logger\n'}
+[2.054895] (data_logger) StdoutLine: {'line': b"writing list of installed files to '/home/ecd507/f1tenth_ws/build/data_logger/install.log'\n"}
+[2.110076] (-) TimerEvent: {}
+[2.119645] (data_logger) CommandEnded: {'returncode': 0}
+[2.165598] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 0}
+[2.167619] (-) EventReactorShutdown: {}

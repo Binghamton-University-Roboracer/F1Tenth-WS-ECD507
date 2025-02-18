@@ -1,0 +1,48 @@
+[0.622s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[0.743s] [35m[1mConsolidate compiler generated dependencies of target vesc_driver[0m
+[0.780s] [35m[1mConsolidate compiler generated dependencies of target vesc_driver_node[0m
+[0.822s] [ 20%] Built target vesc_driver_node
+[0.841s] [ 70%] Built target vesc_driver
+[0.870s] [35m[1mConsolidate compiler generated dependencies of target vesc_device_namer[0m
+[0.899s] [100%] Built target vesc_device_namer
+[0.947s] Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[0.953s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_driver
+[0.968s] -- Install configuration: ""
+[0.971s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[0.971s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include
+[0.971s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver
+[0.972s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[0.972s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[0.972s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[0.972s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[0.973s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[0.973s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[0.973s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[0.973s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[0.973s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[0.976s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so
+[0.978s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[0.978s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch
+[0.980s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[0.980s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/params
+[0.980s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[0.982s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[0.982s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[0.983s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[0.983s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[0.983s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[0.983s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[0.983s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[0.983s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[0.984s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[0.984s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[0.984s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[0.985s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[0.985s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[0.986s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.986s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.986s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.986s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[0.986s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[0.987s] -- Up-to-date: /home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml
+[0.991s] Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_driver

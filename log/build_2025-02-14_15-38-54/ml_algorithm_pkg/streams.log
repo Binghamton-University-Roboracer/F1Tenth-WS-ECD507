@@ -1,0 +1,27 @@
+[2.970s] Invoking command in '/home/ecd507/f1tenth_ws/ml_algorithim_pkg': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ml_algorithm_pkg build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm_pkg/install.log --single-version-externally-managed install_data
+[3.283s] Traceback (most recent call last):
+[3.283s]   File "/home/ecd507/f1tenth_ws/ml_algorithim_pkg/setup.py", line 1, in <module>
+[3.283s]     from setuptools import find_packages, setup
+[3.284s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[3.284s]     import setuptools.version
+[3.284s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[3.284s]     import pkg_resources
+[3.284s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[3.306s]     def _initialize_master_working_set():
+[3.309s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[3.309s]     f(*args, **kwargs)
+[3.310s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[3.313s]     working_set = WorkingSet._build_master()
+[3.313s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[3.334s]     ws = cls()
+[3.335s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[3.335s]     self.add_entry(entry)
+[3.335s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[3.335s]     for dist in find_distributions(entry, True):
+[3.335s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[3.335s]     path_item_entries = _by_version_descending(filtered)
+[3.335s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[3.336s]     return sorted(names, key=_by_version, reverse=True)
+[3.336s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 81, in __eq__
+[3.336s]     def __eq__(self, other: object) -> bool:
+[3.336s] KeyboardInterrupt

@@ -1,0 +1,39 @@
+[0.035s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/ecd507/f1tenth_ws/install/vesc
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.269s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.448s] -- Detecting C compile features
+[0.449s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.646s] -- Detecting CXX compile features - done
+[0.654s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.038s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.432s] -- Configuring done
+[1.439s] -- Generating done
+[1.443s] -- Build files have been written to: /home/ecd507/f1tenth_ws/build/vesc
+[1.455s] Invoked command in '/home/ecd507/f1tenth_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/ecd507/f1tenth_ws/install/vesc
+[1.458s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc -- -j6 -l6
+[1.542s] Invoked command in '/home/ecd507/f1tenth_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc -- -j6 -l6
+[1.545s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc
+[1.564s] -- Install configuration: ""
+[1.564s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[1.565s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[1.565s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[1.566s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[1.566s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/environment/path.sh
+[1.566s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/environment/path.dsv
+[1.567s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/local_setup.bash
+[1.567s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/local_setup.sh
+[1.567s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/local_setup.zsh
+[1.568s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/local_setup.dsv
+[1.568s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.dsv
+[1.568s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[1.569s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[1.569s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[1.569s] -- Installing: /home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.xml
+[1.575s] Invoked command in '/home/ecd507/f1tenth_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/udp_driver:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/serial_driver:/home/ecd507/f1tenth_ws/install/io_context:/home/ecd507/f1tenth_ws/install/asio_cmake_module:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc

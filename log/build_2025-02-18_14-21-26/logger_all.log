@@ -1,0 +1,959 @@
+[0.261s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.262s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9d555b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9d555690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9d555690>>, mixin_verb=('build',))
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.709s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ecd507/f1tenth_ws'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_logger) by extension 'ros'
+[0.787s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_logger' with type 'ros.ament_python' and name 'data_logger'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/ackermann_mux) by extension 'ros'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/ackermann_mux' with type 'ros.ament_cmake' and name 'ackermann_mux'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/f1tenth_stack) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/f1tenth_stack' with type 'ros.ament_python' and name 'f1tenth_stack'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'ros'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extensions ['cmake', 'python']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'cmake'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extensions ['python_setup_py']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/scripts) by extension 'python_setup_py'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'ros'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extensions ['cmake', 'python']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'cmake'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'python'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extensions ['python_setup_py']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools) by extension 'python_setup_py'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/joy_teleop) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/teleop_tools/joy_teleop' with type 'ros.ament_python' and name 'joy_teleop'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/key_teleop) by extension 'ros'
+[0.808s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/teleop_tools/key_teleop' with type 'ros.ament_python' and name 'key_teleop'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/mouse_teleop) by extension 'ros'
+[0.811s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/teleop_tools/mouse_teleop' with type 'ros.ament_python' and name 'mouse_teleop'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/teleop_tools/teleop_tools' with type 'ros.ament_cmake' and name 'teleop_tools'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'ros'
+[0.817s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/teleop_tools/teleop_tools_msgs' with type 'ros.ament_cmake' and name 'teleop_tools_msgs'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'ros'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extensions ['cmake', 'python']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'cmake'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'python'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extensions ['python_setup_py']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc) by extension 'python_setup_py'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extensions ['colcon_meta']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc) by extension 'ros'
+[0.822s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extension 'colcon_meta'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_ackermann) by extension 'ros'
+[0.827s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/vesc/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_driver) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system/vesc/vesc_msgs) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_system/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_algorithm) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ml_algorithm' with type 'ros.ament_python' and name 'ml_algorithm'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extension 'ignore_ament_install'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extension 'colcon_pkg'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_camera) by extension 'ros'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_camera' with type 'ros.ament_python' and name 'ros2_camera'
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.917s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/ecd507/f1tenth_ws/install
+[0.921s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'cmake_target' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'cmake_clean_cache' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'cmake_clean_first' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'cmake_force_configure' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'ament_cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'catkin_cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'ackermann_mux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.034s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_mux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/ackermann_mux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/ackermann_mux', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/ackermann_mux', 'symlink_install': False, 'test_result_base': None}
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'cmake_args' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'cmake_target' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'cmake_clean_cache' from command line to 'False'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'cmake_clean_first' from command line to 'False'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'cmake_force_configure' from command line to 'False'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'ament_cmake_args' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'catkin_cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'data_logger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.036s] DEBUG:colcon.colcon_core.verb:Building package 'data_logger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/data_logger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/data_logger', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/data_logger', 'symlink_install': False, 'test_result_base': None}
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_target' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.037s] DEBUG:colcon.colcon_core.verb:Building package 'key_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/key_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/key_teleop', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'cmake_target' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'cmake_clean_first' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'cmake_force_configure' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'ament_cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'ml_algorithm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.038s] DEBUG:colcon.colcon_core.verb:Building package 'ml_algorithm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/ml_algorithm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/ml_algorithm', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/ml_algorithm', 'symlink_install': False, 'test_result_base': None}
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_target' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.039s] DEBUG:colcon.colcon_core.verb:Building package 'mouse_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/mouse_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/mouse_teleop', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'cmake_args' from command line to 'None'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'cmake_target' from command line to 'None'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.040s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'ros2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.041s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/ros2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/ros2_camera', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/ros2_camera', 'symlink_install': False, 'test_result_base': None}
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_args' from command line to 'None'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target' from command line to 'None'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.042s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.043s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/vesc_msgs', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.045s] DEBUG:colcon.colcon_core.verb:Building package 'joy_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/joy_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/joy_teleop', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.046s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_cache' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.047s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/vesc_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/vesc_ackermann', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann', 'symlink_install': False, 'test_result_base': None}
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.048s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/vesc_driver', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_target' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_clean_first' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_force_configure' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'ament_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.049s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/teleop_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/teleop_tools', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools', 'symlink_install': False, 'test_result_base': None}
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.051s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/vesc', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc', 'symlink_install': False, 'test_result_base': None}
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'cmake_target' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'cmake_clean_cache' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'cmake_clean_first' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'cmake_force_configure' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'ament_cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'catkin_cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.053s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_stack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ecd507/f1tenth_ws/build/f1tenth_stack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ecd507/f1tenth_ws/install/f1tenth_stack', 'merge_install': False, 'path': '/home/ecd507/f1tenth_ws/src/f1tenth_system/f1tenth_stack', 'symlink_install': False, 'test_result_base': None}
+[1.053s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.056s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs' with build type 'ament_cmake'
+[1.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs'
+[1.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.064s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.075s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs' with build type 'ament_cmake'
+[1.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs'
+[1.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/ackermann_mux' with build type 'ament_cmake'
+[1.087s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/ackermann_mux'
+[1.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.097s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' with build type 'ament_python'
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_teleop', 'ament_prefix_path')
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/hook/ament_prefix_path.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/hook/ament_prefix_path.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/hook/ament_prefix_path.sh'
+[1.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.111s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/data_logger' with build type 'ament_python'
+[1.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_logger', 'ament_prefix_path')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/hook/ament_prefix_path.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/hook/ament_prefix_path.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/hook/ament_prefix_path.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.124s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/ml_algorithm' with build type 'ament_python'
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('ml_algorithm', 'ament_prefix_path')
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/hook/ament_prefix_path.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/hook/ament_prefix_path.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/hook/ament_prefix_path.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/teleop_tools_msgs -- -j6 -l6
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[2.108s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop'
+[2.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.827s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/data_logger'
+[2.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.678s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/ml_algorithm'
+[3.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/teleop_tools_msgs -- -j6 -l6
+[3.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/teleop_tools_msgs
+[3.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[3.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/ackermann_mux
+[3.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[3.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_msgs
+[3.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_mux)
+[3.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/ackermann_mux
+[3.858s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux' for CMake module files
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux' for CMake config files
+[3.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_mux', 'cmake_prefix_path')
+[3.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/hook/cmake_prefix_path.ps1'
+[3.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/hook/cmake_prefix_path.dsv'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/hook/cmake_prefix_path.sh'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/lib'
+[3.894s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/bin'
+[3.894s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/lib/pkgconfig/ackermann_mux.pc'
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/lib/python3.10/site-packages'
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/bin'
+[3.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.ps1'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv'
+[3.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.sh'
+[3.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.bash'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.zsh'
+[3.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/ackermann_mux/share/colcon-core/packages/ackermann_mux)
+[3.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_mux)
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux' for CMake module files
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux' for CMake config files
+[3.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_mux', 'cmake_prefix_path')
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/hook/cmake_prefix_path.ps1'
+[3.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/hook/cmake_prefix_path.dsv'
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/hook/cmake_prefix_path.sh'
+[3.921s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/lib'
+[3.921s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/bin'
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/lib/pkgconfig/ackermann_mux.pc'
+[3.923s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/lib/python3.10/site-packages'
+[3.923s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ackermann_mux/bin'
+[3.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.ps1'
+[3.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv'
+[3.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.sh'
+[3.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.bash'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.zsh'
+[3.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/ackermann_mux/share/colcon-core/packages/ackermann_mux)
+[3.942s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop' with build type 'ament_python'
+[3.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouse_teleop', 'ament_prefix_path')
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.ps1'
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.dsv'
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.sh'
+[3.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs' for CMake module files
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs' for CMake config files
+[3.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[3.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[3.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib'
+[3.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[3.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/teleop_tools_msgs
+[4.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[4.005s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/bin'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib/python3.10/site-packages'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/bin'
+[4.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[4.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[4.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[4.019s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs' for CMake module files
+[4.020s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs' for CMake config files
+[4.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[4.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[4.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[4.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib'
+[4.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[4.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[4.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[4.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[4.032s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/bin'
+[4.032s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib/python3.10/site-packages'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/bin'
+[4.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[4.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[4.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[4.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[4.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[4.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[4.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop'
+[4.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.816s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop' with build type 'ament_python'
+[4.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'ament_prefix_path')
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.ps1'
+[4.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.dsv'
+[4.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.sh'
+[4.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs' for CMake module files
+[4.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_msgs
+[4.850s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs' for CMake config files
+[4.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[4.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[4.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[4.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/lib'
+[4.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[4.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[4.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/bin'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[4.865s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/lib/python3.10/site-packages'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/bin'
+[4.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[4.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[4.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[4.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[4.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[4.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[4.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[4.877s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs' for CMake module files
+[4.878s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs' for CMake config files
+[4.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[4.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[4.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[4.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[4.887s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/lib'
+[4.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[4.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[4.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[4.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[4.891s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/bin'
+[4.892s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[4.892s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/lib/python3.10/site-packages'
+[4.893s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_msgs/bin'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[4.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[4.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[4.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[4.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[4.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann' with build type 'ament_cmake'
+[4.908s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann'
+[4.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.982s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop'
+[5.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': PYTHONPATH=/home/ecd507/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/ecd507/f1tenth_ws/build/key_teleop/build install --record /home/ecd507/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[6.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/data_logger': PYTHONPATH=/home/ecd507/f1tenth_ws/build/data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_logger build --build-base /home/ecd507/f1tenth_ws/build/data_logger/build install --record /home/ecd507/f1tenth_ws/build/data_logger/install.log --single-version-externally-managed install_data
+[6.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[6.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/ml_algorithm': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_algorithm build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm/install.log --single-version-externally-managed install_data
+[6.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/home/ecd507/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/ecd507/f1tenth_ws/build/mouse_teleop/build install --record /home/ecd507/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data
+[6.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_ackermann -- -j6 -l6
+[6.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_ackermann
+[6.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[6.663s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann' for CMake module files
+[6.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_ackermann
+[6.667s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann' for CMake config files
+[6.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[6.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[6.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[6.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[6.674s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib'
+[6.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[6.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[6.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[6.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[6.679s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/bin'
+[6.679s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[6.679s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/bin'
+[6.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[6.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[6.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[6.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[6.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[6.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[6.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[6.689s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann' for CMake module files
+[6.690s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann' for CMake config files
+[6.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[6.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[6.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[6.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[6.701s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib'
+[6.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[6.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[6.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[6.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[6.706s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/bin'
+[6.706s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[6.707s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[6.707s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_ackermann/bin'
+[6.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[6.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[6.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[6.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[6.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[6.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[6.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver' with build type 'ament_cmake'
+[6.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver'
+[6.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[7.191s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger' for CMake module files
+[7.192s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger' for CMake config files
+[7.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/data_logger' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_logger build --build-base /home/ecd507/f1tenth_ws/build/data_logger/build install --record /home/ecd507/f1tenth_ws/build/data_logger/install.log --single-version-externally-managed install_data
+[7.198s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger/lib'
+[7.199s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger/bin'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger/lib/pkgconfig/data_logger.pc'
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages'
+[7.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_logger', 'pythonpath')
+[7.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/hook/pythonpath.ps1'
+[7.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/hook/pythonpath.dsv'
+[7.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/hook/pythonpath.sh'
+[7.210s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/data_logger/bin'
+[7.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_logger)
+[7.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/package.ps1'
+[7.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/package.dsv'
+[7.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/package.sh'
+[7.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/package.bash'
+[7.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/data_logger/share/data_logger/package.zsh'
+[7.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/data_logger/share/colcon-core/packages/data_logger)
+[7.232s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/ros2_camera' with build type 'ament_python'
+[7.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_camera', 'ament_prefix_path')
+[7.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/hook/ament_prefix_path.ps1'
+[7.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/hook/ament_prefix_path.dsv'
+[7.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/hook/ament_prefix_path.sh'
+[7.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.285s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm' for CMake module files
+[7.286s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm' for CMake config files
+[7.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/ml_algorithm' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_algorithm build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm/install.log --single-version-externally-managed install_data
+[7.292s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm/lib'
+[7.293s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm/bin'
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/pkgconfig/ml_algorithm.pc'
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages'
+[7.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('ml_algorithm', 'pythonpath')
+[7.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/hook/pythonpath.ps1'
+[7.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/hook/pythonpath.dsv'
+[7.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/hook/pythonpath.sh'
+[7.312s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ml_algorithm/bin'
+[7.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ml_algorithm)
+[7.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/package.ps1'
+[7.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/package.dsv'
+[7.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/package.sh'
+[7.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/package.bash'
+[7.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm/package.zsh'
+[7.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/ml_algorithm/share/colcon-core/packages/ml_algorithm)
+[8.291s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/ros2_camera'
+[8.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[8.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_driver
+[8.332s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop' for CMake module files
+[8.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/ecd507/f1tenth_ws/build/mouse_teleop/build install --record /home/ecd507/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data
+[8.335s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop' for CMake config files
+[8.336s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop/lib'
+[8.337s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop/bin'
+[8.337s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/pkgconfig/mouse_teleop.pc'
+[8.338s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages'
+[8.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouse_teleop', 'pythonpath')
+[8.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.ps1'
+[8.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.dsv'
+[8.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.sh'
+[8.344s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/mouse_teleop/bin'
+[8.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mouse_teleop)
+[8.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/package.ps1'
+[8.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/package.dsv'
+[8.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/package.sh'
+[8.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/package.bash'
+[8.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/package.zsh'
+[8.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/mouse_teleop/share/colcon-core/packages/mouse_teleop)
+[8.354s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop' for CMake module files
+[8.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/ecd507/f1tenth_ws/build/key_teleop/build install --record /home/ecd507/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[8.357s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop' for CMake config files
+[8.359s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop/lib'
+[8.359s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop/bin'
+[8.359s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop/lib/pkgconfig/key_teleop.pc'
+[8.360s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages'
+[8.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_teleop', 'pythonpath')
+[8.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/hook/pythonpath.ps1'
+[8.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/hook/pythonpath.dsv'
+[8.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/hook/pythonpath.sh'
+[8.365s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/key_teleop/bin'
+[8.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(key_teleop)
+[8.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/package.ps1'
+[8.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/package.dsv'
+[8.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/package.sh'
+[8.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/package.bash'
+[8.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/key_teleop/share/key_teleop/package.zsh'
+[8.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/key_teleop/share/colcon-core/packages/key_teleop)
+[8.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/ecd507/f1tenth_ws/build/joy_teleop/build install --record /home/ecd507/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data
+[8.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[8.393s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver' for CMake module files
+[8.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc_driver
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver' for CMake config files
+[8.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[8.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[8.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[8.402s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/lib'
+[8.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[8.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[8.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[8.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[8.407s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/bin'
+[8.407s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[8.408s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/lib/python3.10/site-packages'
+[8.408s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/bin'
+[8.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[8.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[8.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[8.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[8.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[8.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[8.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[8.421s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver' for CMake module files
+[8.422s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver' for CMake config files
+[8.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[8.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[8.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[8.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[8.433s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/lib'
+[8.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[8.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[8.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[8.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[8.440s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/bin'
+[8.440s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[8.441s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/lib/python3.10/site-packages'
+[8.441s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc_driver/bin'
+[8.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[8.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[8.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[8.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[8.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[8.452s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[8.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc' with build type 'ament_cmake'
+[8.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc'
+[8.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc -- -j6 -l6
+[8.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc -- -j6 -l6
+[8.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/vesc': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc
+[8.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[8.685s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc' for CMake module files
+[8.686s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc' for CMake config files
+[8.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[8.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/vesc
+[8.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[8.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[8.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[8.694s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/bin'
+[8.695s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[8.696s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/lib/python3.10/site-packages'
+[8.696s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/bin'
+[8.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.ps1'
+[8.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.dsv'
+[8.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.sh'
+[8.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.bash'
+[8.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.zsh'
+[8.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc/share/colcon-core/packages/vesc)
+[8.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[8.710s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc' for CMake module files
+[8.711s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc' for CMake config files
+[8.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[8.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[8.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[8.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[8.718s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/bin'
+[8.719s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[8.719s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/lib/python3.10/site-packages'
+[8.720s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/vesc/bin'
+[8.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.ps1'
+[8.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.dsv'
+[8.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.sh'
+[8.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.bash'
+[8.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/vesc/share/vesc/package.zsh'
+[8.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/vesc/share/colcon-core/packages/vesc)
+[9.292s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop' for CMake module files
+[9.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/ecd507/f1tenth_ws/build/joy_teleop/build install --record /home/ecd507/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data
+[9.294s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop' for CMake config files
+[9.296s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop/lib'
+[9.296s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop/bin'
+[9.296s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop/lib/pkgconfig/joy_teleop.pc'
+[9.297s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages'
+[9.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'pythonpath')
+[9.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/hook/pythonpath.ps1'
+[9.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/hook/pythonpath.dsv'
+[9.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/hook/pythonpath.sh'
+[9.305s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/joy_teleop/bin'
+[9.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_teleop)
+[9.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/package.ps1'
+[9.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/package.dsv'
+[9.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/package.sh'
+[9.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/package.bash'
+[9.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/joy_teleop/share/joy_teleop/package.zsh'
+[9.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/joy_teleop/share/colcon-core/packages/joy_teleop)
+[9.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools' with build type 'ament_cmake'
+[9.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools'
+[9.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.366s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/f1tenth_stack' with build type 'ament_python'
+[9.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_stack', 'ament_prefix_path')
+[9.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/hook/ament_prefix_path.ps1'
+[9.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/hook/ament_prefix_path.dsv'
+[9.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/hook/ament_prefix_path.sh'
+[9.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/teleop_tools': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/data_logger:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/teleop_tools -- -j6 -l6
+[10.340s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ecd507/f1tenth_ws/src/f1tenth_system/f1tenth_stack'
+[10.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/ros2_camera': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ros2_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_camera build --build-base /home/ecd507/f1tenth_ws/build/ros2_camera/build install --record /home/ecd507/f1tenth_ws/build/ros2_camera/install.log --single-version-externally-managed install_data
+[10.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/teleop_tools' returned '0': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/data_logger:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/teleop_tools -- -j6 -l6
+[10.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/build/teleop_tools': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/data_logger:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/teleop_tools
+[10.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools)
+[10.398s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools' for CMake module files
+[10.399s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools' for CMake config files
+[10.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools', 'cmake_prefix_path')
+[10.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.ps1'
+[10.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/build/teleop_tools' returned '0': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/data_logger:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/opt/ros/humble LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ecd507/f1tenth_ws/build/teleop_tools
+[10.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.dsv'
+[10.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.sh'
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/bin'
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/lib/pkgconfig/teleop_tools.pc'
+[10.407s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/lib/python3.10/site-packages'
+[10.407s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/bin'
+[10.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.ps1'
+[10.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.dsv'
+[10.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.sh'
+[10.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.bash'
+[10.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.zsh'
+[10.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/teleop_tools/share/colcon-core/packages/teleop_tools)
+[10.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools)
+[10.416s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools' for CMake module files
+[10.417s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools' for CMake config files
+[10.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools', 'cmake_prefix_path')
+[10.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.ps1'
+[10.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.dsv'
+[10.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.sh'
+[10.422s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/bin'
+[10.422s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/lib/pkgconfig/teleop_tools.pc'
+[10.422s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/lib/python3.10/site-packages'
+[10.423s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/teleop_tools/bin'
+[10.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.ps1'
+[10.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.dsv'
+[10.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.sh'
+[10.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.bash'
+[10.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/teleop_tools/share/teleop_tools/package.zsh'
+[10.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/teleop_tools/share/colcon-core/packages/teleop_tools)
+[11.182s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera' for CMake module files
+[11.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/ros2_camera' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ros2_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_camera build --build-base /home/ecd507/f1tenth_ws/build/ros2_camera/build install --record /home/ecd507/f1tenth_ws/build/ros2_camera/install.log --single-version-externally-managed install_data
+[11.185s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera' for CMake config files
+[11.187s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera/lib'
+[11.187s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera/bin'
+[11.187s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera/lib/pkgconfig/ros2_camera.pc'
+[11.188s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages'
+[11.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_camera', 'pythonpath')
+[11.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/hook/pythonpath.ps1'
+[11.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/hook/pythonpath.dsv'
+[11.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/hook/pythonpath.sh'
+[11.196s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/ros2_camera/bin'
+[11.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_camera)
+[11.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/package.ps1'
+[11.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/package.dsv'
+[11.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/package.sh'
+[11.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/package.bash'
+[11.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera/package.zsh'
+[11.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/ros2_camera/share/colcon-core/packages/ros2_camera)
+[11.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/f1tenth_stack': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/teleop_tools LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /home/ecd507/f1tenth_ws/build/f1tenth_stack/build install --record /home/ecd507/f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed install_data
+[12.414s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack' for CMake module files
+[12.415s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack' for CMake config files
+[12.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ros2_camera:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/ml_drive:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg:/home/ecd507/f1tenth_ws/install/ml_algorithm:/home/ecd507/f1tenth_ws/install/key_teleop:/home/ecd507/f1tenth_ws/install/data_logger:/home/ecd507/f1tenth_ws/install/ackermann_mux:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/ackermann_mux:/home/ecd507/f1tenth_ws/install/teleop_tools LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/local/lib/python3.10/dist-packages:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm_pkg/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages:/home/ecd507/f1tenth_ws/install/data_logger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /home/ecd507/f1tenth_ws/build/f1tenth_stack/build install --record /home/ecd507/f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed install_data
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib'
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack/bin'
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/pkgconfig/f1tenth_stack.pc'
+[12.419s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack/lib/python3.10/site-packages'
+[12.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_stack', 'pythonpath')
+[12.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/hook/pythonpath.ps1'
+[12.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/hook/pythonpath.dsv'
+[12.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/hook/pythonpath.sh'
+[12.424s] Level 1:colcon.colcon_core.environment:checking '/home/ecd507/f1tenth_ws/install/f1tenth_stack/bin'
+[12.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_stack)
+[12.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/package.ps1'
+[12.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/package.dsv'
+[12.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/package.sh'
+[12.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/package.bash'
+[12.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/package.zsh'
+[12.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ecd507/f1tenth_ws/install/f1tenth_stack/share/colcon-core/packages/f1tenth_stack)
+[12.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.434s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.451s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.452s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.486s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ecd507/f1tenth_ws/install/local_setup.ps1'
+[12.489s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ecd507/f1tenth_ws/install/_local_setup_util_ps1.py'
+[12.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ecd507/f1tenth_ws/install/setup.ps1'
+[12.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ecd507/f1tenth_ws/install/local_setup.sh'
+[12.499s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ecd507/f1tenth_ws/install/_local_setup_util_sh.py'
+[12.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ecd507/f1tenth_ws/install/setup.sh'
+[12.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ecd507/f1tenth_ws/install/local_setup.bash'
+[12.506s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ecd507/f1tenth_ws/install/setup.bash'
+[12.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ecd507/f1tenth_ws/install/local_setup.zsh'
+[12.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ecd507/f1tenth_ws/install/setup.zsh'

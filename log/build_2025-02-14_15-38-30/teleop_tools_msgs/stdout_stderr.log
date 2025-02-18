@@ -1,0 +1,48 @@
+[  9%] Built target teleop_tools_msgs__rosidl_generator_c
+[ 12%] Built target teleop_tools_msgs__cpp
+[ 12%] Built target ament_cmake_python_copy_teleop_tools_msgs
+[ 22%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[ 32%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[ 51%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[ 70%] Built target teleop_tools_msgs
+Traceback (most recent call last):
+  File "/home/ecd507/f1tenth_ws/build/teleop_tools_msgs/ament_cmake_python/teleop_tools_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:589: teleop_tools_msgs__py/CMakeFiles/teleop_tools_msgs__py.dir/all] Interrupt
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+    from distutils.dist import Distribution
+  File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+    from distutils.fancy_getopt import FancyGetopt, translate_longopt
+  File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 12, in <module>
+    import getopt
+  File "/usr/lib/python3.10/getopt.py", line 38, in <module>
+    from gettext import gettext as _
+  File "/usr/lib/python3.10/gettext.py", line 73, in <module>
+    _token_pattern = re.compile(r"""
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 548, in _parse
+    this = sourceget()
+  File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+    self.__next()
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

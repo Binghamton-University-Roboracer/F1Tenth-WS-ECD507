@@ -1,0 +1,23 @@
+[31mCMake Error at /opt/ros/humble/share/io_context/cmake/io_context-extras.cmake:17 (find_package):
+  By not providing "Findasio_cmake_module.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "asio_cmake_module", but CMake did not find one.
+
+  Could not find a package configuration file provided by "asio_cmake_module"
+  with any of the following names:
+
+    asio_cmake_moduleConfig.cmake
+    asio_cmake_module-config.cmake
+
+  Add the installation prefix of "asio_cmake_module" to CMAKE_PREFIX_PATH or
+  set "asio_cmake_module_DIR" to a directory containing one of the above
+  files.  If "asio_cmake_module" provides a separate development package or
+  SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/io_context/cmake/io_contextConfig.cmake:41 (include)
+  /opt/ros/humble/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/serial_driver/cmake/serial_driverConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:14 (ament_auto_find_build_dependencies)
+
+[0m

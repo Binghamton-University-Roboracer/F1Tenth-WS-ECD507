@@ -1,0 +1,38 @@
+[1.501s] Invoking command in '/home/ecd507/f1tenth_ws/src/ros2_camera': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ros2_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_camera build --build-base /home/ecd507/f1tenth_ws/build/ros2_camera/build install --record /home/ecd507/f1tenth_ws/build/ros2_camera/install.log --single-version-externally-managed install_data
+[2.082s] running egg_info
+[2.083s] creating ../../build/ros2_camera/ros2_camera.egg-info
+[2.083s] writing ../../build/ros2_camera/ros2_camera.egg-info/PKG-INFO
+[2.084s] writing dependency_links to ../../build/ros2_camera/ros2_camera.egg-info/dependency_links.txt
+[2.084s] writing entry points to ../../build/ros2_camera/ros2_camera.egg-info/entry_points.txt
+[2.084s] writing requirements to ../../build/ros2_camera/ros2_camera.egg-info/requires.txt
+[2.084s] writing top-level names to ../../build/ros2_camera/ros2_camera.egg-info/top_level.txt
+[2.085s] writing manifest file '../../build/ros2_camera/ros2_camera.egg-info/SOURCES.txt'
+[2.089s] reading manifest file '../../build/ros2_camera/ros2_camera.egg-info/SOURCES.txt'
+[2.089s] adding license file 'LICENSE'
+[2.090s] writing manifest file '../../build/ros2_camera/ros2_camera.egg-info/SOURCES.txt'
+[2.091s] running build
+[2.091s] running build_py
+[2.091s] creating /home/ecd507/f1tenth_ws/build/ros2_camera/build
+[2.091s] creating /home/ecd507/f1tenth_ws/build/ros2_camera/build/lib
+[2.091s] creating /home/ecd507/f1tenth_ws/build/ros2_camera/build/lib/ros2_camera
+[2.091s] copying ros2_camera/camera_node.py -> /home/ecd507/f1tenth_ws/build/ros2_camera/build/lib/ros2_camera
+[2.092s] copying ros2_camera/__init__.py -> /home/ecd507/f1tenth_ws/build/ros2_camera/build/lib/ros2_camera
+[2.092s] running install
+[2.093s] running install_lib
+[2.094s] creating /home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages/ros2_camera
+[2.095s] copying /home/ecd507/f1tenth_ws/build/ros2_camera/build/lib/ros2_camera/camera_node.py -> /home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages/ros2_camera
+[2.097s] copying /home/ecd507/f1tenth_ws/build/ros2_camera/build/lib/ros2_camera/__init__.py -> /home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages/ros2_camera
+[2.099s] byte-compiling /home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages/ros2_camera/camera_node.py to camera_node.cpython-310.pyc
+[2.100s] byte-compiling /home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages/ros2_camera/__init__.py to __init__.cpython-310.pyc
+[2.100s] running install_data
+[2.101s] creating /home/ecd507/f1tenth_ws/install/ros2_camera/share/ament_index
+[2.101s] creating /home/ecd507/f1tenth_ws/install/ros2_camera/share/ament_index/resource_index
+[2.101s] creating /home/ecd507/f1tenth_ws/install/ros2_camera/share/ament_index/resource_index/packages
+[2.101s] copying resource/ros2_camera -> /home/ecd507/f1tenth_ws/install/ros2_camera/share/ament_index/resource_index/packages
+[2.101s] copying package.xml -> /home/ecd507/f1tenth_ws/install/ros2_camera/share/ros2_camera
+[2.101s] running install_egg_info
+[2.106s] Copying ../../build/ros2_camera/ros2_camera.egg-info to /home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages/ros2_camera-0.0.0-py3.10.egg-info
+[2.108s] running install_scripts
+[2.152s] Installing camera_node script to /home/ecd507/f1tenth_ws/install/ros2_camera/lib/ros2_camera
+[2.153s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/ros2_camera/install.log'
+[2.226s] Invoked command in '/home/ecd507/f1tenth_ws/src/ros2_camera' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ros2_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ros2_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_camera build --build-base /home/ecd507/f1tenth_ws/build/ros2_camera/build install --record /home/ecd507/f1tenth_ws/build/ros2_camera/install.log --single-version-externally-managed install_data

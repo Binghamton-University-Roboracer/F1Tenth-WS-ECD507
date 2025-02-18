@@ -1,0 +1,33 @@
+[4.491s] Invoking command in '/home/ecd507/f1tenth_ws/src/ml_algorithim_pkg': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_algorithim_pkg build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/install.log --single-version-externally-managed install_data
+[5.568s] running egg_info
+[5.569s] creating ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info
+[5.570s] writing ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/PKG-INFO
+[5.570s] writing dependency_links to ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/dependency_links.txt
+[5.570s] writing entry points to ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/entry_points.txt
+[5.570s] writing requirements to ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/requires.txt
+[5.571s] writing top-level names to ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/top_level.txt
+[5.571s] writing manifest file '../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/SOURCES.txt'
+[5.591s] reading manifest file '../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/SOURCES.txt'
+[5.592s] writing manifest file '../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info/SOURCES.txt'
+[5.602s] running build
+[5.602s] running build_py
+[5.603s] creating /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build
+[5.603s] creating /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build/lib
+[5.603s] creating /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build/lib/ml_algorithim_pkg
+[5.603s] copying ml_algorithim_pkg/__init__.py -> /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build/lib/ml_algorithim_pkg
+[5.603s] running install
+[5.604s] running install_lib
+[5.606s] creating /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/lib/python3.10/site-packages/ml_algorithim_pkg
+[5.607s] copying /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build/lib/ml_algorithim_pkg/__init__.py -> /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/lib/python3.10/site-packages/ml_algorithim_pkg
+[5.607s] byte-compiling /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/lib/python3.10/site-packages/ml_algorithim_pkg/__init__.py to __init__.cpython-310.pyc
+[5.608s] running install_data
+[5.608s] creating /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/share/ament_index
+[5.608s] creating /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/share/ament_index/resource_index
+[5.609s] creating /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/share/ament_index/resource_index/packages
+[5.609s] copying resource/ml_algorithim_pkg -> /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/share/ament_index/resource_index/packages
+[5.609s] copying package.xml -> /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/share/ml_algorithim_pkg
+[5.609s] running install_egg_info
+[5.638s] Copying ../../build/ml_algorithim_pkg/ml_algorithim_pkg.egg-info to /home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/lib/python3.10/site-packages/ml_algorithim_pkg-0.0.0-py3.10.egg-info
+[5.640s] running install_scripts
+[5.786s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/install.log'
+[6.008s] Invoked command in '/home/ecd507/f1tenth_ws/src/ml_algorithim_pkg' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithim_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_algorithim_pkg build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithim_pkg/install.log --single-version-externally-managed install_data

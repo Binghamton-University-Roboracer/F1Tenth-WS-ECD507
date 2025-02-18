@@ -1,0 +1,63 @@
+[0.046s] Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/ecd507/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/ecd507/f1tenth_ws/install/ackermann_mux
+[0.648s] -- The C compiler identification is GNU 11.4.0
+[0.649s] -- The CXX compiler identification is GNU 11.4.0
+[0.650s] -- Detecting C compiler ABI info
+[0.718s] -- Detecting C compiler ABI info - done
+[0.744s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.746s] -- Detecting C compile features
+[0.748s] -- Detecting C compile features - done
+[0.757s] -- Detecting CXX compiler ABI info
+[0.930s] -- Detecting CXX compiler ABI info - done
+[0.936s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.937s] -- Detecting CXX compile features
+[0.938s] -- Detecting CXX compile features - done
+[0.942s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.302s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.545s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.661s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.670s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.688s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.872s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.881s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.126s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.185s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.291s] -- Looking for pthread.h
+[2.456s] -- Looking for pthread.h - found
+[2.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.624s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.626s] -- Found Threads: TRUE  
+[2.812s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[2.877s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.946s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.170s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.222s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.246s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.246s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.246s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.246s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.297s] -- Found PythonExtra: .so  
+[3.354s] -- Added test 'xmllint' to check XML markup files
+[3.357s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.362s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.362s] -- Configured cppcheck include dirs: /home/ecd507/f1tenth_ws/src/f1tenth_system/ackermann_mux/include
+[3.362s] -- Configured cppcheck exclude dirs and/or files: 
+[3.367s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.367s] -- Configured cpplint exclude dirs and/or files: 
+[3.369s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.372s] -- Added test 'lint_cmake' to check CMake code style
+[3.375s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.379s] -- Added test 'uncrustify' to check C / C++ code style
+[3.379s] -- Configured uncrustify additional arguments: 
+[3.389s] -- Configuring done
+[3.410s] -- Generating done
+[3.422s] -- Build files have been written to: /home/ecd507/f1tenth_ws/build/ackermann_mux
+[3.446s] Invoked command in '/home/ecd507/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/ecd507/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/ecd507/f1tenth_ws/install/ackermann_mux
+[3.450s] Invoking command in '/home/ecd507/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ecd507/f1tenth_ws/install/f1tenth_stack:/home/ecd507/f1tenth_ws/install/joy_teleop:/home/ecd507/f1tenth_ws/install/mouse_teleop:/home/ecd507/f1tenth_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[3.548s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[3.548s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[3.550s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[37.719s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[39.382s] [100%] Built target ackermann_mux

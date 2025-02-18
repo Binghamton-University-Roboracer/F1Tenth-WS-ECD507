@@ -1,0 +1,5 @@
+  File "/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm/ml_algorithm_node.py", line 18
+    self.model = torch.load(os.path.expanduser('~/f1tenth_ws/model.pth'),weights_only=False map_location=torch.device(self.device))
+                                                                                      ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

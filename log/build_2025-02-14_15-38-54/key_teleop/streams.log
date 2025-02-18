@@ -1,0 +1,42 @@
+[2.983s] Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': PYTHONPATH=/home/ecd507/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/key_teleop/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/ecd507/f1tenth_ws/build/key_teleop/build install --record /home/ecd507/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[3.313s] Traceback (most recent call last):
+[3.313s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2031, in try_parse
+[3.314s]     return packaging.version.Version(name)
+[3.314s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__
+[3.314s]     raise InvalidVersion(f"Invalid version: '{version}'")
+[3.315s] pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: 'packages/pyxdg'
+[3.315s] 
+[3.315s] During handling of the above exception, another exception occurred:
+[3.316s] 
+[3.316s] Traceback (most recent call last):
+[3.316s]   File "/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop/setup.py", line 3, in <module>
+[3.316s]     from setuptools import find_packages
+[3.316s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[3.316s]     import setuptools.version
+[3.316s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[3.316s]     import pkg_resources
+[3.317s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[3.317s]     def _initialize_master_working_set():
+[3.317s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[3.319s]     f(*args, **kwargs)
+[3.319s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[3.319s]     working_set = WorkingSet._build_master()
+[3.319s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[3.319s]     ws = cls()
+[3.319s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[3.320s]     self.add_entry(entry)
+[3.320s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[3.320s]     for dist in find_distributions(entry, True):
+[3.320s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path
+[3.320s]     path_item_entries = _by_version_descending(filtered)
+[3.320s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending
+[3.320s]     return sorted(names, key=_by_version, reverse=True)
+[3.320s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version
+[3.344s]     return [try_parse(part) for part in parts]
+[3.344s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in <listcomp>
+[3.344s]     return [try_parse(part) for part in parts]
+[3.344s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2033, in try_parse
+[3.344s]     return packaging.version.Version('0')
+[3.349s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 264, in __init__
+[3.349s]     match = self._regex.search(version)
+[3.349s] KeyboardInterrupt

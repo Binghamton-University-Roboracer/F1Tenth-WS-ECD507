@@ -1,0 +1,35 @@
+[0.166s] Invoking command in '/home/ecd507/f1tenth_ws/build/vesc_msgs': /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[2.410s] [  1%] Built target vesc_msgs__cpp
+[2.410s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[2.410s] [ 12%] Built target ament_cmake_python_copy_vesc_msgs
+[2.411s] [ 23%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[2.411s] [ 34%] Built target vesc_msgs__rosidl_typesupport_cpp
+[2.411s] [ 45%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[2.411s] [ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[2.411s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[2.411s] [ 78%] Built target vesc_msgs__rosidl_typesupport_c
+[2.411s] [ 78%] Built target vesc_msgs
+[2.412s] gmake[1]: *** [CMakeFiles/Makefile2:589: vesc_msgs__py/CMakeFiles/vesc_msgs__py.dir/all] Interrupt
+[2.412s] Traceback (most recent call last):
+[2.412s]   File "/home/ecd507/f1tenth_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/setup.py", line 1, in <module>
+[2.412s]     from setuptools import find_packages
+[2.412s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[2.412s]     import distutils.core
+[2.412s]   File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+[2.412s]     from distutils.cmd import Command
+[2.413s]   File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+[2.413s]     from distutils import util, dir_util, file_util, archive_util, dep_util
+[2.413s]   File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+[2.413s]     import zipfile
+[2.413s]   File "/usr/lib/python3.10/zipfile.py", line 20, in <module>
+[2.413s]     import pathlib
+[2.413s]   File "/usr/lib/python3.10/pathlib.py", line 14, in <module>
+[2.413s]     from urllib.parse import quote_from_bytes as urlquote_from_bytes
+[2.413s]   File "/usr/lib/python3.10/urllib/parse.py", line 257, in <module>
+[2.414s]     _SplitResultBase = namedtuple(
+[2.414s]   File "/usr/lib/python3.10/collections/__init__.py", line 397, in namedtuple
+[2.414s]     field_names = tuple(map(_sys.intern, field_names))
+[2.414s] KeyboardInterrupt
+[2.414s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg] Interrupt
+[2.414s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/all] Interrupt
+[2.414s] gmake: *** [Makefile:146: all] Interrupt

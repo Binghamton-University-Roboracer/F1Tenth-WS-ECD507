@@ -1,0 +1,36 @@
+[3.385s] Invoking command in '/home/ecd507/f1tenth_ws/src/ml_algorithm': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_algorithm build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm/install.log --single-version-externally-managed install_data
+[3.911s] running egg_info
+[3.911s] creating ../../build/ml_algorithm/ml_algorithm.egg-info
+[3.911s] writing ../../build/ml_algorithm/ml_algorithm.egg-info/PKG-INFO
+[3.914s] writing dependency_links to ../../build/ml_algorithm/ml_algorithm.egg-info/dependency_links.txt
+[3.914s] writing entry points to ../../build/ml_algorithm/ml_algorithm.egg-info/entry_points.txt
+[3.914s] writing requirements to ../../build/ml_algorithm/ml_algorithm.egg-info/requires.txt
+[3.914s] writing top-level names to ../../build/ml_algorithm/ml_algorithm.egg-info/top_level.txt
+[3.914s] writing manifest file '../../build/ml_algorithm/ml_algorithm.egg-info/SOURCES.txt'
+[3.915s] reading manifest file '../../build/ml_algorithm/ml_algorithm.egg-info/SOURCES.txt'
+[3.918s] writing manifest file '../../build/ml_algorithm/ml_algorithm.egg-info/SOURCES.txt'
+[3.919s] running build
+[3.919s] running build_py
+[3.919s] creating /home/ecd507/f1tenth_ws/build/ml_algorithm/build
+[3.919s] creating /home/ecd507/f1tenth_ws/build/ml_algorithm/build/lib
+[3.919s] creating /home/ecd507/f1tenth_ws/build/ml_algorithm/build/lib/ml_algorithm
+[3.919s] copying ml_algorithm/ml_algorithm_node.py -> /home/ecd507/f1tenth_ws/build/ml_algorithm/build/lib/ml_algorithm
+[3.919s] copying ml_algorithm/__init__.py -> /home/ecd507/f1tenth_ws/build/ml_algorithm/build/lib/ml_algorithm
+[3.920s] running install
+[3.920s] running install_lib
+[3.920s] creating /home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm
+[3.921s] copying /home/ecd507/f1tenth_ws/build/ml_algorithm/build/lib/ml_algorithm/ml_algorithm_node.py -> /home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm
+[3.921s] copying /home/ecd507/f1tenth_ws/build/ml_algorithm/build/lib/ml_algorithm/__init__.py -> /home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm
+[3.922s] byte-compiling /home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm/ml_algorithm_node.py to ml_algorithm_node.cpython-310.pyc
+[3.924s] byte-compiling /home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm/__init__.py to __init__.cpython-310.pyc
+[3.924s] running install_data
+[3.925s] creating /home/ecd507/f1tenth_ws/install/ml_algorithm/share/ament_index
+[3.925s] creating /home/ecd507/f1tenth_ws/install/ml_algorithm/share/ament_index/resource_index
+[3.925s] creating /home/ecd507/f1tenth_ws/install/ml_algorithm/share/ament_index/resource_index/packages
+[3.926s] copying resource/ml_algorithm -> /home/ecd507/f1tenth_ws/install/ml_algorithm/share/ament_index/resource_index/packages
+[3.926s] copying package.xml -> /home/ecd507/f1tenth_ws/install/ml_algorithm/share/ml_algorithm
+[3.926s] running install_egg_info
+[3.930s] Copying ../../build/ml_algorithm/ml_algorithm.egg-info to /home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages/ml_algorithm-0.0.0-py3.10.egg-info
+[3.931s] running install_scripts
+[3.990s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/ml_algorithm/install.log'
+[4.693s] Invoked command in '/home/ecd507/f1tenth_ws/src/ml_algorithm' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_algorithm/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_algorithm build --build-base /home/ecd507/f1tenth_ws/build/ml_algorithm/build install --record /home/ecd507/f1tenth_ws/build/ml_algorithm/install.log --single-version-externally-managed install_data

@@ -1,0 +1,49 @@
+[0.183s] Invoking command in '/home/ecd507/f1tenth_ws/build/teleop_tools_msgs': /usr/bin/cmake --build /home/ecd507/f1tenth_ws/build/teleop_tools_msgs -- -j6 -l6
+[2.409s] [  9%] Built target teleop_tools_msgs__rosidl_generator_c
+[2.410s] [ 12%] Built target teleop_tools_msgs__cpp
+[2.410s] [ 12%] Built target ament_cmake_python_copy_teleop_tools_msgs
+[2.410s] [ 22%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[2.410s] [ 32%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[2.410s] [ 41%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[2.410s] [ 51%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[2.410s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[2.411s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[2.411s] [ 70%] Built target teleop_tools_msgs
+[2.420s] Traceback (most recent call last):
+[2.421s]   File "/home/ecd507/f1tenth_ws/build/teleop_tools_msgs/ament_cmake_python/teleop_tools_msgs/setup.py", line 1, in <module>
+[2.421s]     from setuptools import find_packages
+[2.421s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[2.421s] gmake[1]: *** [CMakeFiles/Makefile2:589: teleop_tools_msgs__py/CMakeFiles/teleop_tools_msgs__py.dir/all] Interrupt
+[2.421s]     import distutils.core
+[2.421s]   File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+[2.421s]     from distutils.dist import Distribution
+[2.421s]   File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+[2.422s]     from distutils.fancy_getopt import FancyGetopt, translate_longopt
+[2.422s]   File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 12, in <module>
+[2.422s]     import getopt
+[2.422s]   File "/usr/lib/python3.10/getopt.py", line 38, in <module>
+[2.422s]     from gettext import gettext as _
+[2.422s]   File "/usr/lib/python3.10/gettext.py", line 73, in <module>
+[2.422s]     _token_pattern = re.compile(r"""
+[2.422s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[2.422s]     return _compile(pattern, flags)
+[2.423s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[2.423s]     p = sre_compile.compile(pattern, flags)
+[2.423s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[2.423s]     p = sre_parse.parse(p, flags)
+[2.423s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[2.423s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[2.423s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.423s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.424s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[2.424s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[2.424s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.424s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.424s]   File "/usr/lib/python3.10/sre_parse.py", line 548, in _parse
+[2.424s]     this = sourceget()
+[2.424s]   File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+[2.424s]     self.__next()
+[2.424s] KeyboardInterrupt
+[2.425s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg] Interrupt
+[2.425s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/all] Interrupt
+[2.425s] gmake: *** [Makefile:146: all] Interrupt

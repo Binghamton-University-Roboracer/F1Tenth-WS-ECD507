@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

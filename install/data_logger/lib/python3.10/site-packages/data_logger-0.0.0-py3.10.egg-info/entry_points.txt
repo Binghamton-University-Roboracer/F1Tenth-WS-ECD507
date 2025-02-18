@@ -1,0 +1,3 @@
+[console_scripts]
+data_collector = data_logger.data_collector:main
+

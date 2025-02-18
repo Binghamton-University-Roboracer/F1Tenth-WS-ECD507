@@ -1,0 +1,3 @@
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/vesc_to_odom_node.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/ackermann_to_vesc_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,24 @@
+[5.150s] Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/home/ecd507/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/ecd507/f1tenth_ws/build/mouse_teleop/build install --record /home/ecd507/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data
+[6.420s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.436s]   warnings.warn(
+[6.469s] running egg_info
+[6.486s] writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[6.496s] writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[6.498s] writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[6.498s] writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[6.499s] writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[6.505s] reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[6.513s] adding license file 'LICENSE'
+[6.526s] writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[6.529s] running build
+[6.531s] running build_py
+[6.534s] running install
+[6.537s] running install_lib
+[6.541s] running install_data
+[6.553s] running install_egg_info
+[6.568s] removing '/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop-0.3.0-py3.10.egg-info' (and everything under it)
+[6.584s] Copying ../../../../build/mouse_teleop/mouse_teleop.egg-info to /home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop-0.3.0-py3.10.egg-info
+[6.606s] running install_scripts
+[6.758s] Installing mouse_teleop script to /home/ecd507/f1tenth_ws/install/mouse_teleop/lib/mouse_teleop
+[6.760s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/mouse_teleop/install.log'
+[7.138s] Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/mouse_teleop/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/ecd507/f1tenth_ws/build/mouse_teleop/build install --record /home/ecd507/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed install_data

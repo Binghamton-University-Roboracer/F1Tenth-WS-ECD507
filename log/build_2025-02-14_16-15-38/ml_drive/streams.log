@@ -1,0 +1,22 @@
+[1.409s] Invoking command in '/home/ecd507/f1tenth_ws/src/ml_drive': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_drive build --build-base /home/ecd507/f1tenth_ws/build/ml_drive/build install --record /home/ecd507/f1tenth_ws/build/ml_drive/install.log --single-version-externally-managed install_data
+[1.966s] running egg_info
+[1.967s] writing ../../build/ml_drive/ml_drive.egg-info/PKG-INFO
+[1.967s] writing dependency_links to ../../build/ml_drive/ml_drive.egg-info/dependency_links.txt
+[1.968s] writing entry points to ../../build/ml_drive/ml_drive.egg-info/entry_points.txt
+[1.968s] writing requirements to ../../build/ml_drive/ml_drive.egg-info/requires.txt
+[1.968s] writing top-level names to ../../build/ml_drive/ml_drive.egg-info/top_level.txt
+[1.973s] reading manifest file '../../build/ml_drive/ml_drive.egg-info/SOURCES.txt'
+[1.974s] writing manifest file '../../build/ml_drive/ml_drive.egg-info/SOURCES.txt'
+[1.974s] running build
+[1.975s] running build_py
+[1.975s] running install
+[1.976s] running install_lib
+[1.981s] running install_data
+[1.982s] copying package.xml -> /home/ecd507/f1tenth_ws/install/ml_drive/share/ml_drive
+[1.982s] running install_egg_info
+[1.986s] removing '/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages/ml_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[1.987s] Copying ../../build/ml_drive/ml_drive.egg-info to /home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages/ml_drive-0.0.0-py3.10.egg-info
+[1.988s] running install_scripts
+[2.031s] Installing camera_subscriber script to /home/ecd507/f1tenth_ws/install/ml_drive/lib/ml_drive
+[2.032s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/ml_drive/install.log'
+[2.103s] Invoked command in '/home/ecd507/f1tenth_ws/src/ml_drive' returned '0': PYTHONPATH=/home/ecd507/f1tenth_ws/build/ml_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/ml_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ml_drive build --build-base /home/ecd507/f1tenth_ws/build/ml_drive/build install --record /home/ecd507/f1tenth_ws/build/ml_drive/install.log --single-version-externally-managed install_data

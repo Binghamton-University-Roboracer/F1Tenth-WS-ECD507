@@ -1,0 +1,6 @@
+source;share/ml_algorithm/hook/pythonpath.ps1
+source;share/ml_algorithm/hook/pythonpath.dsv
+source;share/ml_algorithm/hook/pythonpath.sh
+source;share/ml_algorithm/hook/ament_prefix_path.ps1
+source;share/ml_algorithm/hook/ament_prefix_path.dsv
+source;share/ml_algorithm/hook/ament_prefix_path.sh

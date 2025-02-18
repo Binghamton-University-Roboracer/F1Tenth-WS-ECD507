@@ -1,0 +1,24 @@
+[2.549s] Invoking command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/ecd507/f1tenth_ws/build/joy_teleop/build install --record /home/ecd507/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data
+[3.203s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.203s]   warnings.warn(
+[3.229s] running egg_info
+[3.231s] writing ../../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[3.232s] writing dependency_links to ../../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[3.233s] writing entry points to ../../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[3.233s] writing requirements to ../../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[3.234s] writing top-level names to ../../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[3.239s] reading manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[3.242s] writing manifest file '../../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[3.252s] running build
+[3.252s] running build_py
+[3.253s] running install
+[3.254s] running install_lib
+[3.259s] running install_data
+[3.259s] running install_egg_info
+[3.270s] removing '/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-0.3.0-py3.10.egg-info' (and everything under it)
+[3.282s] Copying ../../../../build/joy_teleop/joy_teleop.egg-info to /home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages/joy_teleop-0.3.0-py3.10.egg-info
+[3.282s] running install_scripts
+[3.384s] Installing incrementer_server script to /home/ecd507/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+[3.385s] Installing joy_teleop script to /home/ecd507/f1tenth_ws/install/joy_teleop/lib/joy_teleop
+[3.387s] writing list of installed files to '/home/ecd507/f1tenth_ws/build/joy_teleop/install.log'
+[3.468s] Invoked command in '/home/ecd507/f1tenth_ws/src/f1tenth_system/teleop_tools/joy_teleop' returned '0': CMAKE_PREFIX_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs:/home/ecd507/f1tenth_ws/install/vesc:/home/ecd507/f1tenth_ws/install/vesc_driver:/home/ecd507/f1tenth_ws/install/vesc_ackermann:/home/ecd507/f1tenth_ws/install/vesc_msgs:/home/ecd507/f1tenth_ws/install/teleop_tools:/home/ecd507/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/home/ecd507/f1tenth_ws/install/teleop_tools_msgs/lib:/home/ecd507/f1tenth_ws/install/vesc_driver/lib:/home/ecd507/f1tenth_ws/install/vesc_ackermann/lib:/home/ecd507/f1tenth_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ecd507/f1tenth_ws/build/joy_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ecd507/f1tenth_ws/install/joy_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/joy_teleop build --build-base /home/ecd507/f1tenth_ws/build/joy_teleop/build install --record /home/ecd507/f1tenth_ws/build/joy_teleop/install.log --install-scripts $base/lib/joy_teleop --single-version-externally-managed install_data

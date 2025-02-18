@@ -1,0 +1,3 @@
+[console_scripts]
+camera_node = ros2_camera.camera_node:main
+

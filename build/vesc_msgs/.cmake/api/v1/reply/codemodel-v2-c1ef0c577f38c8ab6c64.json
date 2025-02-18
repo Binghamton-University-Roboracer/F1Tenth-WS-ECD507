@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0e1a2d236bb94adecdb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vesc_msgs__py",
+					"jsonFile" : "directory-vesc_msgs__py-b2070f41926b7dc206eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ecd507/f1tenth_ws/build/vesc_msgs/vesc_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vesc_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vesc_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vesc_msgs_egg-270a6323337e523276c3.json",
+					"name" : "ament_cmake_python_build_vesc_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vesc_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vesc_msgs-f7b32a43f053e8d9f774.json",
+					"name" : "ament_cmake_python_copy_vesc_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0dbd36047e0150f338d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs-0526aa4cc501b1aef56a.json",
+					"name" : "vesc_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__cpp-cac8b20a4e408cbea59c.json",
+					"name" : "vesc_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vesc_msgs__py::@0043e930599a1ab2b2b1",
+					"jsonFile" : "target-vesc_msgs__py-008d1ce7059fa3a1250f.json",
+					"name" : "vesc_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_generator_c-52c0e78e6517b68c7646.json",
+					"name" : "vesc_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_generator_py-a17a9eb376919816edb6.json",
+					"name" : "vesc_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_c-d5f33fcfc9630293ef03.json",
+					"name" : "vesc_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_c__pyext-5f968d619859de0d516c.json",
+					"name" : "vesc_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_cpp-6f04921deac065dfc0f0.json",
+					"name" : "vesc_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_fastrtps_c-9bd3636fe991eeeb5402.json",
+					"name" : "vesc_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_fastrtps_c__pyext-2d507807aa3c20f1d2e8.json",
+					"name" : "vesc_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_fastrtps_cpp-9ab9406238e0fe44ecd3.json",
+					"name" : "vesc_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_introspection_c-216d6816de0976e50a83.json",
+					"name" : "vesc_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_introspection_c__pyext-b3cca89320889cd9df04.json",
+					"name" : "vesc_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs__rosidl_typesupport_introspection_cpp-7cf0f5c9a5648aa4f946.json",
+					"name" : "vesc_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_msgs_uninstall-1818d7b5e484313c2e37.json",
+					"name" : "vesc_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ecd507/f1tenth_ws/build/vesc_msgs",
+		"source" : "/home/ecd507/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

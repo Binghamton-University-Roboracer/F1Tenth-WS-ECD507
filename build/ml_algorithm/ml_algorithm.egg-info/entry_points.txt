@@ -1,0 +1,3 @@
+[console_scripts]
+ml_algorithm_node = ml_algorithm.ml_algorithm_node:main
+
