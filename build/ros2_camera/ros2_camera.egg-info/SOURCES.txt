@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py

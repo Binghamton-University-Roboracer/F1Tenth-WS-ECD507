@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/ecd507/f1tenth_ws/install/f1tenth_stack'
+    sys.prefix = sys.exec_prefix = '/home/ecd507/gitchanges/F1Tenth-WS-ECD507/install/f1tenth_stack'

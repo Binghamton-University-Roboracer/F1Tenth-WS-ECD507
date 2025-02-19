@@ -47,7 +47,7 @@ class AutonomousDriver(Node):
         # Load the trained model (assuming PyTorch for now)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = CNNModel().to(self.device)
-        checkpoint = torch.load(os.path.expanduser('~/f1tenth_ws/model.pth'))
+        checkpoint = torch.load(os.path.expanduser('~/training/model.pth'))
         
         self.model.load_state_dict(checkpoint)
         self.get_logger().info(f"Model Loaded Successfully")

@@ -27,12 +27,13 @@ class DataCollector(Node):
 
 
         # Create directory for images
-        self.image_dir = os.path.expanduser("~/ecd507-training/data")
+        self.image_dir = os.path.expanduser("~/training/data")
         os.makedirs(self.image_dir, exist_ok=True)
 
         # Open CSV file for logging
         self.log_file = open(os.path.join(self.image_dir, "driving_log.csv"), "w", newline='')
         self.writer = csv.writer(self.log_file)
+        self.get_logger().info(f"{self.image_dir}")
         self.writer.writerow(["timestamp", "image_path","lidar_list", "steering", "throttle"])
         
 
