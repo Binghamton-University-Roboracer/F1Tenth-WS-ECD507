@@ -16,3 +16,4 @@
 [submodule "src/f1tenth_system"]
 	path = src/f1tenth_system
 	url = https://github.com/Binghamton-University-Roboracer/f1tenth_system_ecd507.git
+	branch = humble-devel
