@@ -10,3 +10,6 @@
 [submodule "src/data_logger"]
 	path = src/data_logger
 	url = https://github.com/Binghamton-University-Roboracer/ECD507-Data-Logger.git
+[submodule "src/ros2_camera"]
+	path = src/ros2_camera
+	url = https://github.com/c3hodgins/ECD507-Camera-Node.git
