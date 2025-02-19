@@ -13,3 +13,6 @@
 [submodule "src/ros2_camera"]
 	path = src/ros2_camera
 	url = https://github.com/c3hodgins/ECD507-Camera-Node.git
+[submodule "src/f1tenth_system"]
+	path = src/f1tenth_system
+	url = https://github.com/Binghamton-University-Roboracer/f1tenth_system_ecd507.git
